@@ -14,6 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if UserDefaults.standard.colorForKey(key: "numPadColor") == nil {
+            UserDefaults.standard.setColor(color: .secondarySystemBackground, forKey: "numPadColor")
+        }
         return true
     }
 

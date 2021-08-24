@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0CBAF925D09D050005AB9A /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0CBAF825D09D050005AB9A /* ColorCollectionViewCell.swift */; };
+		5A0CBAFE25D09D790005AB9A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0CBAFD25D09D790005AB9A /* SettingsViewController.swift */; };
+		5A0CBB0325D0FFE70005AB9A /* PresetColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0CBB0225D0FFE70005AB9A /* PresetColors.swift */; };
+		5A0CBB0825D100800005AB9A /* UserDefaults_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0CBB0725D100800005AB9A /* UserDefaults_Extensions.swift */; };
 		5A10F94B25CC3D370041D048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10F94A25CC3D370041D048 /* AppDelegate.swift */; };
 		5A10F94D25CC3D370041D048 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10F94C25CC3D370041D048 /* SceneDelegate.swift */; };
-		5A10F94F25CC3D370041D048 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10F94E25CC3D370041D048 /* ViewController.swift */; };
 		5A10F95225CC3D370041D048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A10F95025CC3D370041D048 /* Main.storyboard */; };
 		5A10F95425CC3D390041D048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A10F95325CC3D390041D048 /* Assets.xcassets */; };
 		5A10F95725CC3D390041D048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A10F95525CC3D390041D048 /* LaunchScreen.storyboard */; };
 		5A10F96225CC3D390041D048 /* WhatsTheCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10F96125CC3D390041D048 /* WhatsTheCodeTests.swift */; };
 		5A10F96D25CC3D390041D048 /* WhatsTheCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10F96C25CC3D390041D048 /* WhatsTheCodeUITests.swift */; };
+		5A10F98625CC52480041D048 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10F98525CC52480041D048 /* PasscodeView.swift */; };
+		5A10F99425CC56CC0041D048 /* PasscodeDigitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A10F99225CC56CC0041D048 /* PasscodeDigitCollectionViewCell.swift */; };
+		5A8B66DB25CC5AE10031F795 /* PasscodeDigitFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B66DA25CC5AE10031F795 /* PasscodeDigitFlowLayout.swift */; };
+		5A8B66E325CC5FDF0031F795 /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B66E225CC5FDF0031F795 /* PasscodeViewController.swift */; };
+		5A8B66EF25CC9D5F0031F795 /* NumPadCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B66EE25CC9D5F0031F795 /* NumPadCollectionViewCell.swift */; };
+		5A8B66F525CCD4A70031F795 /* UIView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B66F425CCD4A70031F795 /* UIView_Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A0CBAF825D09D050005AB9A /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewCell.swift; sourceTree = "<group>"; };
+		5A0CBAFD25D09D790005AB9A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5A0CBB0225D0FFE70005AB9A /* PresetColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetColors.swift; sourceTree = "<group>"; };
+		5A0CBB0725D100800005AB9A /* UserDefaults_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults_Extensions.swift; sourceTree = "<group>"; };
 		5A10F94725CC3D370041D048 /* WhatsTheCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsTheCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A10F94A25CC3D370041D048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A10F94C25CC3D370041D048 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A10F94E25CC3D370041D048 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A10F95125CC3D370041D048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A10F95325CC3D390041D048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A10F95625CC3D390041D048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,12 @@
 		5A10F96825CC3D390041D048 /* WhatsTheCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsTheCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A10F96C25CC3D390041D048 /* WhatsTheCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsTheCodeUITests.swift; sourceTree = "<group>"; };
 		5A10F96E25CC3D390041D048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A10F98525CC52480041D048 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
+		5A10F99225CC56CC0041D048 /* PasscodeDigitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeDigitCollectionViewCell.swift; sourceTree = "<group>"; };
+		5A8B66DA25CC5AE10031F795 /* PasscodeDigitFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeDigitFlowLayout.swift; sourceTree = "<group>"; };
+		5A8B66E225CC5FDF0031F795 /* PasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
+		5A8B66EE25CC9D5F0031F795 /* NumPadCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumPadCollectionViewCell.swift; sourceTree = "<group>"; };
+		5A8B66F425CCD4A70031F795 /* UIView_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +117,13 @@
 		5A10F94925CC3D370041D048 /* WhatsTheCode */ = {
 			isa = PBXGroup;
 			children = (
-				5A10F94A25CC3D370041D048 /* AppDelegate.swift */,
-				5A10F94C25CC3D370041D048 /* SceneDelegate.swift */,
-				5A10F94E25CC3D370041D048 /* ViewController.swift */,
-				5A10F95025CC3D370041D048 /* Main.storyboard */,
-				5A10F95325CC3D390041D048 /* Assets.xcassets */,
-				5A10F95525CC3D390041D048 /* LaunchScreen.storyboard */,
+				5A8B66F325CCD4940031F795 /* Extensions */,
+				5A8B66ED25CC9B130031F795 /* Data Models */,
+				5A10F97E25CC4DEE0041D048 /* App Delegate */,
+				5A10F98025CC4E150041D048 /* Assets */,
+				5A10F98425CC51D50041D048 /* PasscodeView */,
+				5A10F97D25CC4DDF0041D048 /* View Controllers */,
+				5A10F97F25CC4E000041D048 /* Storyboards */,
 				5A10F95825CC3D390041D048 /* Info.plist */,
 			);
 			path = WhatsTheCode;
@@ -126,6 +145,70 @@
 				5A10F96E25CC3D390041D048 /* Info.plist */,
 			);
 			path = WhatsTheCodeUITests;
+			sourceTree = "<group>";
+		};
+		5A10F97D25CC4DDF0041D048 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A8B66E225CC5FDF0031F795 /* PasscodeViewController.swift */,
+				5A8B66EE25CC9D5F0031F795 /* NumPadCollectionViewCell.swift */,
+				5A0CBAF825D09D050005AB9A /* ColorCollectionViewCell.swift */,
+				5A0CBAFD25D09D790005AB9A /* SettingsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5A10F97E25CC4DEE0041D048 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				5A10F94A25CC3D370041D048 /* AppDelegate.swift */,
+				5A10F94C25CC3D370041D048 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		5A10F97F25CC4E000041D048 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5A10F95525CC3D390041D048 /* LaunchScreen.storyboard */,
+				5A10F95025CC3D370041D048 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5A10F98025CC4E150041D048 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5A10F95325CC3D390041D048 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5A10F98425CC51D50041D048 /* PasscodeView */ = {
+			isa = PBXGroup;
+			children = (
+				5A10F98525CC52480041D048 /* PasscodeView.swift */,
+				5A10F99225CC56CC0041D048 /* PasscodeDigitCollectionViewCell.swift */,
+				5A8B66DA25CC5AE10031F795 /* PasscodeDigitFlowLayout.swift */,
+			);
+			path = PasscodeView;
+			sourceTree = "<group>";
+		};
+		5A8B66ED25CC9B130031F795 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A0CBB0225D0FFE70005AB9A /* PresetColors.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		5A8B66F325CCD4940031F795 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5A8B66F425CCD4A70031F795 /* UIView_Extensions.swift */,
+				5A0CBB0725D100800005AB9A /* UserDefaults_Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +341,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A10F94F25CC3D370041D048 /* ViewController.swift in Sources */,
+				5A10F99425CC56CC0041D048 /* PasscodeDigitCollectionViewCell.swift in Sources */,
 				5A10F94B25CC3D370041D048 /* AppDelegate.swift in Sources */,
+				5A8B66F525CCD4A70031F795 /* UIView_Extensions.swift in Sources */,
+				5A0CBAFE25D09D790005AB9A /* SettingsViewController.swift in Sources */,
+				5A10F98625CC52480041D048 /* PasscodeView.swift in Sources */,
+				5A8B66E325CC5FDF0031F795 /* PasscodeViewController.swift in Sources */,
+				5A8B66EF25CC9D5F0031F795 /* NumPadCollectionViewCell.swift in Sources */,
+				5A0CBAF925D09D050005AB9A /* ColorCollectionViewCell.swift in Sources */,
 				5A10F94D25CC3D370041D048 /* SceneDelegate.swift in Sources */,
+				5A8B66DB25CC5AE10031F795 /* PasscodeDigitFlowLayout.swift in Sources */,
+				5A0CBB0825D100800005AB9A /* UserDefaults_Extensions.swift in Sources */,
+				5A0CBB0325D0FFE70005AB9A /* PresetColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
